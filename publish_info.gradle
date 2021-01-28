@@ -1,0 +1,26 @@
+
+ext {
+    // 此处填写刚才建立的maven仓库的仓库名称
+    bintrayRepo = 'RevenueX'
+    // Error排查2：如果是企业仓库，这里就填写企业id否者报错,找不到包，无法创建。
+    bintrayOrg = 'qingkai'
+    // library的group id
+    publishedGroupId = 'com.pixocial.revenue'
+    // library网站地址
+    siteUrl = 'https://github.com/QiangbiaoYang/purchase-android'
+    // library仓库地址
+    gitUrl = 'https://github.com/QiangbiaoYang/purchase-android.git'
+
+    // 注册时候的bintray username
+    developerId = 'qingkai'
+    // 开发者名称
+    developerName = 'qingkai'
+    // 开发者邮箱
+    developerEmail = 'qingkai.li@pixocial.com'
+
+    // 开源许可证（这里是Apache 2.0）
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+}
